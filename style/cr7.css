@@ -1,0 +1,37 @@
+.banner{
+    display: flex;
+   justify-content: space-between;
+   /* flex-direction: row; */
+   background-color: cornflowerblue;
+   padding: 30px;
+   height: 50vh;
+}
+
+#text{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#nav{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    color: rgb(141, 16, 16);
+    justify-content: end;
+    cursor: pointer;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 40px;
+    margin-left: 580px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(236, 187, 126);
+    margin-bottom: 10000px;
+    
+}
+button:hover{
+    background-color: rgb(46, 35, 23);
+}
